@@ -1,0 +1,5 @@
+---
+applications:
+ - name: hack-coronavirus-2020
+   host: csl
+   memory: 128M

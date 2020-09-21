@@ -1,0 +1,11 @@
+@import 'carbon-components/scss/globals/scss/styles.scss';
+
+$feature-flags: (
+        ui-shell: true,
+);
+
+body {
+  background-color: #f4f4f4;
+  color: #161616;
+  height: 100%;
+}

@@ -1,0 +1,76 @@
+.map--card {
+  margin-bottom: 1.5rem;
+  position: relative;
+
+  .articles--count {
+    left: 1rem;
+    top: 1rem;
+    position: absolute;
+
+    .title {
+      line-height: 1rem;
+      font-size: .75rem;
+      font-weight: 400;
+    }
+
+    .value {
+      line-height: 2.5rem;
+      font-size: 2rem;
+      font-weight: 400;
+      letter-spacing: 0;
+    }
+
+    .total-value {
+      font-size: 1rem;
+    }
+
+  }
+  .map--container {
+    height: calc(100vh - 16rem);
+
+    .city {
+      //fill: #e0e0e0;
+      opacity: 0.75;
+      stroke: #161616;
+      stroke-width: .375;
+    }
+  }
+
+  .widget--title {
+    line-height: 1.25rem;
+    font-size: .85rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    border-bottom: 3px solid #f4f4f4;
+    padding-right: 1rem;
+  }
+
+  .top-scare--list {
+    list-style: none;
+    margin-bottom: 1rem;
+
+    li {
+      padding: .275rem;
+      font-size: .75rem;
+      line-height: 1rem;
+
+      .value {
+        border-radius: 10px;
+        background-color: #e0e0e0;
+        padding: .1rem .5rem;
+      }
+    }
+  }
+}
+
+#tooltip {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #393939;
+  padding: .5rem .5rem;
+}
+
+
+
